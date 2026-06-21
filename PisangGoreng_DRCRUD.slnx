@@ -1,3 +1,11 @@
 <Solution>
-  <Project Path="PisangGoreng_DRCRUD/PisangGoreng_DRCRUD.csproj" />
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PisangGoreng_DRCRUD/PisangGoreng_DRCRUD.csproj" Id="225fa4df-94ff-4137-af76-66df84d94857">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
 </Solution>
